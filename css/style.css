@@ -5,6 +5,9 @@
     padding: 0px;
 }
 
+/* header */
+
+/* banner */
 .banner
 {
     background-image: url(../img/pattern.png);
@@ -17,4 +20,25 @@
 {
     width: 15%;
     margin-top: 4%;
+}
+
+/* title  */
+h1
+{
+    font-size: 55px;   
+}
+/* undertitle */
+.opacity
+{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#color-blue
+{
+    color: #24baff;
+}
+
+#data
+{
+    font-size: 12px;
 }
