@@ -1,9 +1,8 @@
 *
 {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
 }
+
 
 /* header */
 
@@ -41,4 +40,34 @@ h1
 #data
 {
     font-size: 12px;
+}
+
+/* figcaptions */
+.caption-size
+{
+    font-size: 12px;
+}
+
+
+/* highlighted */
+.highlighted
+{
+    background-color: #FFFF00;
+}
+
+/* table */
+table
+{
+    text-align: left;
+}
+
+thead
+{
+    color: white;
+    background-color: #1FA9E5;
+}
+
+.blue-color
+{
+    background-color: #B1E5F2;
 }
