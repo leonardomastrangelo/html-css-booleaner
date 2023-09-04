@@ -12,6 +12,7 @@
     background-image: url(../img/pattern.png);
     background-size: 32%;
     background-position: top;
+    background-repeat: repeat;
     background-color: #4EA0FF;
 }
 
@@ -19,12 +20,14 @@
 {
     width: 15%;
     margin-top: 4%;
+    margin-left: 5px;
 }
 
 /* title  */
 h1
 {
-    font-size: 55px;   
+    font-size: 55px;  
+    margin-bottom: 0; 
 }
 /* undertitle */
 .opacity
@@ -43,9 +46,15 @@ h1
 }
 
 /* figcaptions */
+
 .caption-size
 {
     font-size: 12px;
+}
+
+figure
+{
+    margin: auto;
 }
 
 
@@ -54,6 +63,7 @@ h1
 {
     background-color: #FFFF00;
 }
+
 
 /* table */
 table
