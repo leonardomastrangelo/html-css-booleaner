@@ -1,84 +1,83 @@
-*
+/* colors */
+.text-blue
 {
-    box-sizing: border-box;
+    color: #31B1E7;
+}
+
+.bg-blue
+{
+    background-color: #4EA0FF;
+}
+
+.bg-light-blue
+{
+    background-color: #B1E5F2;
+}
+
+.text-grey
+{
+    color: lightslategray;
+}
+
+.text-white
+{
+    color: white;
+}
+
+.highlights
+{
+    background-color: yellow;
 }
 
 
 /* header */
-
-/* banner */
-.banner
+header
 {
-    background-image: url(../img/pattern.png);
-    background-size: 32%;
-    background-position: top;
-    background-repeat: repeat;
     background-color: #4EA0FF;
+    background-image: url(../img/pattern.png);
+    padding-top: 40px;
+    background-size: 30%;
+}
+
+h1
+{
+    font-size: 50px;
 }
 
 #logo
 {
-    width: 15%;
-    margin-top: 4%;
-    margin-left: 5px;
+    width: 350px;
 }
-
-/* title  */
-h1
-{
-    font-size: 55px;  
-    margin-bottom: 0; 
-    margin-top: 3px;
-}
-/* undertitle */
-.opacity
-{
-    color: rgba(0, 0, 0, 0.5);
-}
-
-#color-blue
-{
-    color: #24baff;
-}
-
-#data
-{
-    font-size: 12px;
-}
-
-/* figcaptions */
-
-.caption-size
-{
-    font-size: 12px;
-}
-
-figure
-{
-    margin: auto;
-}
-
-
-/* highlighted */
-.highlighted
-{
-    background-color: #FFFF00;
-}
-
 
 /* table */
 table
 {
-    text-align: left;
+    border-spacing: 0px;
+    text-align: left
 }
 
-thead
+.last-column
 {
-    color: white;
-    background-color: #1FA9E5;
+    width: 50%;
 }
 
-.blue-color
+/* linked contents */
+.images
 {
-    background-color: #B1E5F2;
+    width: 208px;
+    height: 160px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+#graph
+{
+    background-image: url(../img/graph.jpg);
+}
+
+#monitor
+{
+    background-image: url(../img/monitor.jpg);
+}
+
